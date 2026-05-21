@@ -4,7 +4,7 @@ import { View, Text, StyleSheet } from 'react-native';
 const AgendaScreen = () => {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Vista Agenda</Text>
+      <Text style={styles.text}>Vista 8595 Agenda</Text>
     </View>
   );
 };
