@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { TouchableOpacity, Text, StyleSheet, View } from 'react-native';
-import AppModal from './AppModal';
+import AppModal from './modal/AppModal';
 
 const InfoButton = ({ infoTitle, infoMessage, infoButtonText }) => {
   const [isOpen, setIsOpen] = useState(false);

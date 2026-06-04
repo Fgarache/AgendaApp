@@ -1,0 +1,45 @@
+.overlay {
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: flex-end;
+}
+
+.content {
+  width: 100%;
+  background-color: #fff;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-top: 15px;
+  align-items: center;
+  box-shadow: 0px -3px 10px rgba(0, 0, 0, 0.1);
+  max-height: 90%;
+}
+
+.handle {
+  width: 40px;
+  height: 5px;
+  background-color: #ccc;
+  border-radius: 3px;
+  margin-bottom: 20px;
+}
+
+.title {
+  font-size: 22px;
+  font-weight: bold;
+  color: #1F2937;
+  margin-bottom: 5px;
+  text-align: center;
+}
+
+.subtitle {
+  font-size: 15px;
+  color: #6B7280;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.childrenContainer {
+  width: 100%;
+}
